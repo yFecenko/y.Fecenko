@@ -1,0 +1,13 @@
+body {
+    --padding: 5vw;
+  }
+  
+  .flexbox {
+    --min: 30ch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .card {
+    flex: var(--min);
+  }
