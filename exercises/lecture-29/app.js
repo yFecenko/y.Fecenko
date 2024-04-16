@@ -11,7 +11,7 @@ class AuthException extends Error {
 }
 
 
-let isAuth = (auth) => auth ? ? false;
+let isAuth = (auth) => auth ?? false;
 
 let dialogBoxId = document.getElementById("dialogBox");
 
